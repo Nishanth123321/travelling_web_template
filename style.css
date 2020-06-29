@@ -1,98 +1,147 @@
 .bdy{
 
+	background-image: url('travell.jpeg');
+	padding:0;
+	margin:0;
+      background-repeat: none;
+      background-size: cover;
+
+}
+.container{
+width:80%;
+margin:auto;
+padding:0;
+
+}
+
+header{
+
+	background-color: white;
+	width:100%;
+	overflow:hidden;
 	margin:0;
 	padding:0;
-	background-image: url('travell.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	text-align:center;
-
-}
-.head {
-	width:100%;
-	height:15vh;
-	color:white;
-	font-style: italic;
-	font-weight: bold;
-	overflow:hidden;
-	background:black;
-	opacity:0.6;
-      
-}
-.main{
-
-height:75vh;
-
-
-
-}
-.login{
-
-     box-sizing: border-box;
-	max-width:70%;
+	max-height:15vh;
 	
-	min-height:45vh;
-	margin:auto;
-	background-color:white;
-	border:none;
-	border-radius:6px;
-	text-align:center;
-	padding-right:10%;
-	padding-left:10%;
-	margin-top:26px;
+box-sizing:border-box;
+
+}
+.fleft{
+	float:left;
+
+}
+.fright{
+	float:right;
+}
+
+li{
+	margin:0;
+}
+li a{
+	text-decoration: none;
+
+	color:black;
+	font-size: 25px;
+	padding:12px 23px;
+	margin:0px 5px;
+	font-style:cursive;
+}
+ul{
+	list-style-type: none;
+
+
+}
+li a:hover{
+    background-color: grey;
+    color:white;
+}
+
+main
+{
+  text-align:center;
+  height:60vh;
+  font-style:italic;
+  color:white;
+  font-weight:bold;
+
+box-sizing:border-box;
+
 }
 
 
+section{
 
-.foot{
-	color:white;
-	font-style: italic;
-	font-weight: bold;
-	background:black;
-	opacity:0.6;
-	height:10vh;
-	overflow:hidden;
-	margin:auto;
+   
+	font-size:2rem;
+margin-top:6em;
+box-sizing: border-box;
 
-}
-.btn{
-
-	font-weight:bold;
-	padding:7px;
-	border:none;
-	border-radius:7px;
 
 }
 
-.withfb .btn{
 
+.links a{
+	border:solid 1px white;
+	border-radius:26px;
+	padding:10px 15px;
+	font-size:1.2rem;
+margin:2px 7px;
+color:white;
+font-family:bold;
+background-color: none;
+text-decoration:none;
+}
+
+.links a:first-child{
 	background-color: blue;
-	color:white;
-	opacity:0.8;
-	width:60%;
-}
-.manual{
+	opacity: 0.8;
 
-	padding-top:7px;
-	padding-bottom:7px;
+
+}
+footer{
+
+min-height:10vh;
+background-color: white;
+
+
+
+}
+footer .container{
+	margin-top: 30px;
+	padding:30px 10px;
+
+}
+footer span{
+	margin-left:2em;
+	margin-right:2em;
+}
+
+.fch{
+
+	color:green;
+	font-style:cursive;
+	font-size:1.2rem;
+}
+
+.labl{
+ font-weight:bold;
+ font-style:italic;
+
+
 }
 
 .inpt{
-
-	padding:7px;
 	border-radius:7px;
-	width:60%;
+	padding:9px 7px;
 }
 
-.sbmt{
-
+footer button{
+	color:white;
+	padding:9px 5px;
 	background-color: green;
-	opacity:0.9;
-	width:50%;
+	opacity:0.8;
+	border:none;
+	border-radius:5px;
+	font-size:1.1rem;
 }
 
-.hone{
-
-	padding-top:5px;
-	padding-bottom:5px;
-}
